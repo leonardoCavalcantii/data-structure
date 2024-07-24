@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class BoboSort {
+public class BubbleSort {
 
     public static void bubbleSort(int[] array) {
         for (int i = 0; i < array.length; i++) {
