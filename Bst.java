@@ -163,39 +163,11 @@ class Node {
     Node(int v) {
         this.value = v;
     }
-
     public String toString() {
         return String.valueOf(value);
     }
-
     public boolean isLeaf() {
         return left == null && right == null;
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        Bst bst = new Bst();
-        System.out.println("arvore");
-        bst.insertRecursive(10);
-        bst.insertRecursive(11);
-        bst.insertRecursive(9);
-        bst.insertRecursive(3);
-        bst.printInOrder();
-        System.out.println("----------------------------------");
-        int node1 = 9;
-        Node result = bst.search(node1);
-        System.out.println("busca iterativa");
-        System.out.println(result);
-        System.out.println("----------------------------------");
-        int node2 = 9;
-        Node result2 = bst.searchRecursive(node2);
-        System.out.println("busca recursiva");
-        System.out.println(result2);
-        System.out.println("----------------------------------");
-        Node maxNode = bst.max();
-        System.out.println(maxNode);
-        Node minNode = bst.min();
-        System.out.println(minNode);
+        }
     }
 }
