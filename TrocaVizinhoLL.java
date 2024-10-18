@@ -16,7 +16,7 @@ import java.util.Scanner;
             System.out.println(lista.toString().trim()); 
     }
 }
-class LeoList{
+class LinkedList{
     Node head;
     Node tail;
     public void addLast(int x){
