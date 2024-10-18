@@ -8,7 +8,6 @@ class MoveImpostor {
         String[] vetor = seq.split(" ");
         move(vetor);
         System.out.println(Arrays.toString(vetor));
-
     }
 
     public static void move(String[] vetor) {
@@ -22,11 +21,7 @@ class MoveImpostor {
                     i--;
                 }
                 break;
-
             }
-
         }
-
     }
-
 }
