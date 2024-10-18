@@ -16,13 +16,7 @@ class TrocaVizinho{
             String aux = v[i];
             v[i] = v[i+1];
             v[i+1] = aux;
-            
         }
         return Arrays.toString(v);
-
     }
-
-
-
-
 }
